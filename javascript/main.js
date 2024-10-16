@@ -6,10 +6,10 @@ let masterPlay = document.getElementById("play");
 let progressBar= document.getElementById("range");
 let songItems = Array.from(document.getElementsByClassName("song"));
 let songs = [
-    {songName:"Tu dua h dua", filePath:"songs/Tu_Dua_H_Dua.mp3",coverPath:"photos/1.jpg"},
-    {songName:"Meri Mehbooba _ Shahrukh Khan", filePath:"songs/Zara Tasveer Se Tu Nikal ke Saamne Aa Meri Mehbooba _ Shahrukh Khan _ Mahima _ Kumar & Alka _ Pardes (320 kbps).mp3",coverPath:"photos/2.jpg"},
-    {songName:"Hangover Salman Khan, Jacqueline Fernandez", filePath:"songs/Hangover Full Video Song _ Kick _ Salman Khan, Jacqueline Fernandez _ Meet Bros Anjjan (320 kbps).mp3",coverPath:"covers/Tu_Dua_H_Dua.mp3"},
-    {songName:"Tera Fitoor Arijit singh", filePath:"songs/Tera Fitoor _ Arijit Singh _ Himesh Reshammiya _ Genius (2018) (320 kbps).mp3",coverPath:"covers/Tu_Dua_H_Dua.mp3"}
+    {songName:"Tu dua h dua", filePath:"songs/1.mp3",coverPath:"photos/1.jpg"},
+    {songName:"Meri Mehbooba _ Shahrukh Khan", filePath:"songs/2.mp3",coverPath:"photos/2.jpg"},
+    {songName:"Hangover Salman Khan, Jacqueline Fernandez", filePath:"songs/3.mp3",coverPath:"covers/Tu_Dua_H_Dua.mp3"},
+    {songName:"Tera Fitoor Arijit singh", filePath:"songs/4.mp3",coverPath:"covers/Tu_Dua_H_Dua.mp3"}
 ]
 
 songItems.forEach((element, i) => {
